@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: center;
+    padding: 54px ;
+}
+.logo-menu{
+    height: 100px ;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: Sarala;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.primeiro{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-one{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo{
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.titulo-secundario{
+    font-family: Sarala;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.Botao{
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Sarala;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.Botao:hover{
+    background-color:rgba(236, 214, 196, 0.53)
+}
+.icone-ballebot{
+    height: 430px;
+}
+
+
+
+.Secundaria2{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 24px;
+}
+
+.titulo-3{
+    padding-top: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.Paragrafo{
+    font-family: Sarala;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape{
+  padding: 32px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.icones-rodape{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
